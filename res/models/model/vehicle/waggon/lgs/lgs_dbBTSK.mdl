@@ -1,0 +1,1587 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 6.8357510566711, 1.4419956207275, 2.044576883316, },
+		bbMin = { -6.8357510566711, -1.4419958591461, 0.0029651522636414, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 6.8357510566711, 1.4419957399368, 1.0208058357239, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 0.99926269054413, 0, 0.038387801498175, 0, 0.00013399841554929, 0.99999392032623, -0.0034880773164332, 0, -0.038387559354305, 0.0034906489308923, 0.99925649166107, 0, -6.3600001335144, -1.1599999666214, 1.1599999666214, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 0.97476094961166, 0, 0.22325004637241, 0, 0.00077928800601512, 0.99999392032623, -0.003402550239116, 0, -0.22324867546558, 0.0034906489308923, 0.97475492954254, 0, -6.3600001335144, 0.64999997615814, 1.1599999666214, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_body_lod0.msh",
+						name = "jay_mesh_lgns_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_untersatz_lod0.msh",
+						name = "jay_mesh_lgns_untersatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Gestell.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_w1_lod0.msh",
+						name = "jay_mesh_lgns_w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9988687038422, 0.0036379676312208, 0.48882123827934, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Gestell.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_w2_lod0.msh",
+						name = "jay_mesh_lgns_w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.9987938404083, 0.0036439653486013, 0.48882135748863, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Gestell.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_laufwerk_bandion_lod0.msh",
+						name = "jay_mesh_lgns_laufwerk_bandion",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_tritt_lod0.msh",
+						name = "jay_mesh_lgns_tritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_kupplungMaikC_lod0.msh",
+						name = "jay_mesh_lgns_kupplungMaikC",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_puffer_lod0.msh",
+						name = "jay_mesh_lgns_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_pufferPlatten_lod0.msh",
+						name = "jay_mesh_lgns_pufferPlatten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_komischesTeil_lod0.msh",
+						name = "jay_mesh_lgns_komischesTeil",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_absatz_lod0.msh",
+						name = "jay_mesh_lgns_absatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_mitteUntersatz_lod0.msh",
+						name = "jay_mesh_lgns_mitteUntersatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_untenRum_lod0.msh",
+						name = "jay_mesh_lgns_untenRum",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_seilhaken_lod0.msh",
+						name = "jay_mesh_lgns_seilhaken",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_leiter_lod0.msh",
+						name = "jay_mesh_lgns_leiter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_hebel_lod0.msh",
+						name = "jay_mesh_lgns_hebel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_datenraster_lod0.msh",
+						name = "jay_mesh_lgns_datenraster",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_amRad_lod0.msh",
+						name = "jay_mesh_lgns_amRad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_zsHalter_lod0.msh",
+						name = "jay_mesh_lgns_zsHalter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 91.919990539551,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_body_lod1.msh",
+						name = "jay_mesh_lgns_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_untersatz_lod1.msh",
+						name = "jay_mesh_lgns_untersatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Gestell.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_w1_lod1.msh",
+						name = "jay_mesh_lgns_w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9988687038422, 0.0036380123347044, 0.48882120847702, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_puffer_lod1.msh",
+						name = "jay_mesh_lgns_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_pufferPlatten_lod1.msh",
+						name = "jay_mesh_lgns_pufferPlatten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Gestell.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_w2_lod1.msh",
+						name = "jay_mesh_lgns_w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.9987940788269, 0.0036441560368985, 0.48882135748863, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Gestell.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_laufwerk_bandion_lod1.msh",
+						name = "jay_mesh_lgns_laufwerk_bandion",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 91.919990539551,
+			visibleTo = 275.75997924805,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_body_lod2.msh",
+						name = "jay_mesh_lgns_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Lgs_BTSK.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_untersatz_lod2.msh",
+						name = "jay_mesh_lgns_untersatz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Gestell.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_w1_lod2.msh",
+						name = "jay_mesh_lgns_w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9988687038422, 0.0036380123347044, 0.48882120847702, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/lgs/Gestell.mtl", },
+						mesh = "vehicle/waggon/lgns/jay_mesh_lgns_w2_lod2.msh",
+						name = "jay_mesh_lgns_w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.9987940788269, 0.0036441560368985, 0.48882135748863, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 275.75997924805,
+			visibleTo = 827.27996826172,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1999,
+			yearTo = 0,
+		},
+		cargoSlotProvider = {
+			slots = {
+				{
+					group = 0,
+					models = { "asset/lgns_beladung/lgns_beladung_leer.mdl", },
+					randomId = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/lgns_beladung/lgns_beladung_40ft.mdl", },
+					randomId = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_nando/container_40ft/container_40ft_cma.mdl", "asset/container_nando/container_40ft/container_40ft_csx.mdl", "asset/container_nando/container_40ft/container_40ft_dhl.mdl", "asset/container_nando/container_40ft/container_40ft_evergreen.mdl", "asset/container_nando/container_40ft/container_40ft_generic.mdl", "asset/container_nando/container_40ft/container_40ft_hamburg.mdl", "asset/container_nando/container_40ft/container_40ft_hanjin.mdl", "asset/container_nando/container_40ft/container_40ft_hl.mdl", "asset/container_nando/container_40ft/container_40ft_maersk.mdl", "asset/container_nando/container_40ft/container_40ft_maikc.mdl", "asset/container_nando/container_40ft/container_40ft_pacer.mdl", "asset/container_nando/container_40ft/container_40ft_po.mdl", "asset/container_nando/container_40ft/container_40ft_pof.mdl", "asset/container_nando/container_40ft/container_40ft_samskip.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_cma.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_cosco.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_csx.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_dhl.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_evergreen.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_generic.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_hamburg.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_hanjin.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_hl.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_maersk.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_msc.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_one.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_oocl.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_pacer.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_po.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_pof.mdl", "asset/container_kaleut/container_40ft_hc/container_40ft_hc_samskip.mdl", "asset/container_nando/container_40ft/repaints_jay_80s90s/container_40ft_cai.mdl", "asset/container_nando/container_40ft/repaints_jay_80s90s/container_40ft_cosco.mdl", "asset/container_nando/container_40ft/repaints_jay_80s90s/container_40ft_florens.mdl", "asset/container_nando/container_40ft/repaints_jay_80s90s/container_40ft_kline.mdl", "asset/container_nando/container_40ft/repaints_jay_80s90s/container_40ft_oocl.mdl", "asset/container_jay/container80s90s/container_40ft/containerRibbed40/containerRibbed40_evergreenAlt.mdl", "asset/container_jay/container80s90s/container_40ft/containerRibbed40/containerRibbed40_hanjinAlt.mdl", "asset/container_jay/container80s90s/container_40ft/containerRibbed40/containerRibbed40_kienHung.mdl", "asset/container_nando/container_40ft/repaints_jay_60s70s/container_40ft_mol.mdl", },
+					randomId = 2,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2200000286102, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/lgns_beladung/lgns_beladung_20ft_2.mdl", },
+					randomId = 3,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_nando/container_20ft/container_20ft_cma.mdl", "asset/container_nando/container_20ft/container_20ft_csx.mdl", "asset/container_nando/container_20ft/container_20ft_dhl.mdl", "asset/container_nando/container_20ft/container_20ft_evergreen.mdl", "asset/container_nando/container_20ft/container_20ft_generic.mdl", "asset/container_nando/container_20ft/container_20ft_hamburg.mdl", "asset/container_nando/container_20ft/container_20ft_hanjin.mdl", "asset/container_nando/container_20ft/container_20ft_hl.mdl", "asset/container_nando/container_20ft/container_20ft_maersk.mdl", "asset/container_nando/container_20ft/container_20ft_maikc.mdl", "asset/container_nando/container_20ft/container_20ft_pacer.mdl", "asset/container_nando/container_20ft/container_20ft_po.mdl", "asset/container_nando/container_20ft/container_20ft_pof.mdl", "asset/container_nando/container_20ft/container_20ft_samskip.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_cma.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_cosco.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_csx.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_dhl.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_evergreen.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_generic.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_hamburg.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_hanjin.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_hl.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_maersk.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_msc.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_one.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_oocl.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_pacer.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_po.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_pof.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_samskip.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_cosco.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_florens.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_klineNeu.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_oocl.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_tex.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_tiphook.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_zim.mdl", },
+					randomId = 4,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.0899999141693, 0, 1.2200000286102, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_nando/container_20ft/container_20ft_cma.mdl", "asset/container_nando/container_20ft/container_20ft_csx.mdl", "asset/container_nando/container_20ft/container_20ft_dhl.mdl", "asset/container_nando/container_20ft/container_20ft_evergreen.mdl", "asset/container_nando/container_20ft/container_20ft_generic.mdl", "asset/container_nando/container_20ft/container_20ft_hamburg.mdl", "asset/container_nando/container_20ft/container_20ft_hanjin.mdl", "asset/container_nando/container_20ft/container_20ft_hl.mdl", "asset/container_nando/container_20ft/container_20ft_maersk.mdl", "asset/container_nando/container_20ft/container_20ft_maikc.mdl", "asset/container_nando/container_20ft/container_20ft_pacer.mdl", "asset/container_nando/container_20ft/container_20ft_po.mdl", "asset/container_nando/container_20ft/container_20ft_pof.mdl", "asset/container_nando/container_20ft/container_20ft_samskip.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_cma.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_cosco.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_csx.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_dhl.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_evergreen.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_generic.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_hamburg.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_hanjin.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_hl.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_maersk.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_msc.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_one.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_oocl.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_pacer.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_po.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_pof.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_samskip.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_cosco.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_florens.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_klineNeu.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_oocl.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_tex.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_tiphook.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_zim.mdl", },
+					randomId = 5,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.0899999141693, 0, 1.2200000286102, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_nando/tanktainer_20ft/tanktainer_20ft_chevron.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_et.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_generic.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_gulf.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_hoyer.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_stolt.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_sunoco.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_texaco.mdl", },
+					randomId = 6,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.0899999141693, 0, 1.2200000286102, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_nando/tanktainer_20ft/tanktainer_20ft_chevron.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_et.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_generic.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_gulf.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_hoyer.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_stolt.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_sunoco.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_texaco.mdl", },
+					randomId = 7,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.0899999141693, 0, 1.2200000286102, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/lgns_beladung/lgns_beladung_20ft.mdl", },
+					randomId = 8,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_nando/container_20ft/container_20ft_cma.mdl", "asset/container_nando/container_20ft/container_20ft_csx.mdl", "asset/container_nando/container_20ft/container_20ft_dhl.mdl", "asset/container_nando/container_20ft/container_20ft_evergreen.mdl", "asset/container_nando/container_20ft/container_20ft_generic.mdl", "asset/container_nando/container_20ft/container_20ft_hamburg.mdl", "asset/container_nando/container_20ft/container_20ft_hanjin.mdl", "asset/container_nando/container_20ft/container_20ft_hl.mdl", "asset/container_nando/container_20ft/container_20ft_maersk.mdl", "asset/container_nando/container_20ft/container_20ft_maikc.mdl", "asset/container_nando/container_20ft/container_20ft_pacer.mdl", "asset/container_nando/container_20ft/container_20ft_po.mdl", "asset/container_nando/container_20ft/container_20ft_pof.mdl", "asset/container_nando/container_20ft/container_20ft_samskip.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_cma.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_cosco.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_csx.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_dhl.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_evergreen.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_generic.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_hamburg.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_hanjin.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_hl.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_maersk.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_msc.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_one.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_oocl.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_pacer.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_po.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_pof.mdl", "asset/container_kaleut/container_20ft_hc/container_20ft_hc_samskip.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_cosco.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_florens.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_klineNeu.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_oocl.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_tex.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_tiphook.mdl", "asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_zim.mdl", },
+					randomId = 9,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2200000286102, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_nando/tanktainer_20ft/tanktainer_20ft_chevron.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_et.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_generic.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_gulf.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_hoyer.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_stolt.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_sunoco.mdl", "asset/container_nando/tanktainer_20ft/tanktainer_20ft_texaco.mdl", "asset/container_nando/tanktainer_26ft/tanktainer_26ft_bert.mdl", "asset/container_nando/tanktainer_26ft/tanktainer_26ft_generic.mdl", "asset/container_nando/tanktainer_26ft/tanktainer_26ft_hsft.mdl", "asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_bert.mdl", "asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_generic.mdl", "asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_vdb.mdl", "asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_vtg.mdl", "asset/container_nando/tanktainer_26ft/tanktainer_26ft_vdb.mdl", "asset/container_nando/tanktainer_26ft/tanktainer_26ft_vtg.mdl", },
+					randomId = 10,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2200000286102, 1, },
+				},
+			},
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("Lgs 580 (DB BTSK)"),
+            description = _("zweiachsiger_containerwagen_desc"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 22000,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			blinkInterval = 500,
+			configs = {
+				{
+					axles = { "vehicle/waggon/lgns/jay_mesh_lgns_w1_lod0.msh", "vehicle/waggon/lgns/jay_mesh_lgns_w2_lod0.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 1, 2, },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+			},
+			engines = { },
+			soundSet = {
+				horn = "",
+				name = "mw_leicht",
+			},
+			topSpeed = 33.3,
+			weight = 13,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "GOODS",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "CONSTRUCTION_MATERIALS",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "TOOLS",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "MACHINES",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "PLASTIC",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "FOOD",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 6, },
+													{ 3, 6, 7, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 10, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "OIL",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 6, },
+													{ 3, 6, 7, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 10, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "CRUDE",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 6, },
+													{ 3, 6, 7, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 10, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "FUEL",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "MEAT",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "MILK",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "FISH",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "COMMERCIAL_GOODS",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "INDUSTRIAL_GOODS",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "MECHANIZED_GOODS",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "TEXTILES",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "LEATHER",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "FIBER",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "CANS",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "TRANSIT_GOODS",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "WOOL",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "TIRES",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "RUBBER",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "SYNTHETIC_FIBER",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "MAIL",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "UNSORTED_MAIL",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "CEMENT",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "COMPUTERS",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "MULTIMEDIA",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "ELECTRONICS",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "DEVICES",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "APPLIANCES",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ 0, },
+													{ 1, },
+													{ 1, 2, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 3, },
+													{ 3, 4, },
+													{ 3, 4, 5, },
+												},
+											},
+											{
+												slotLevels = {
+													{ 0, },
+													{ 8, },
+													{ 8, 9, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "IT_GOODS",
+								},
+							},
+							toHide = { },
+						},
+					},
+				},
+			},
+			groupFileName = "vehicle/waggon/lgns_lgjs_Menu.mdl",
+			loadSpeed = 4,
+			multipleUnitOnly = false,
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end

@@ -1,0 +1,52 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			6.95, 1.45, 3.1, 
+		},
+		bbMin = {
+			-6.95, -1.45, 0, 
+		},
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/lgjs/lgjs_80s90s.mtl", },
+						mesh = "vehicle/waggon/lgjs/jay_mesh_lgjs_zapfen40ft_lod0.msh",
+						name = "Zapfen 40ft",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+			
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1968,
+			yearTo = 0,
+			
+		},
+		cost = {
+			price = -1,
+			
+		},
+		
+	},
+	version = 1,
+	
+}
+end
