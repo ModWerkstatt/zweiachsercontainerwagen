@@ -7,7 +7,8 @@
 		"fake_lgns": "Activate fake versions?",
 		"tooltip_fake": "Should the fake versions be available in the game?",
 	
-        "lgjs_573" :"Lgjs 573",
+        "lgjs_573_60s70s" :"Lgjs 573 DB 1960s",
+        "lgjs_573_80s90s" :"Lgjs 573 DB 1980s",
         "laagss_oebb" :"Laagss ÖBB",
         "lgns_583_btsk" :"Lgns 583 BTSK",
         "lgns_583_db" :"Lgns 583 DB", 
@@ -18,7 +19,7 @@
         "lgs_580_db_cargo" :"Lgs 580 DB Cargo",
         "lgs_580_db_polzug" :"Lgs 580 DB Polzug",
         "lgns_desc" :"Between 1968 and 1973, 500 container carrying cars are built for DB by the Lüttgens and Talbot companies, designated Lss-y 573 (later: Lgjs 573). On delivery, most of the cars are equipped with end shelves made of extruded aluminum profiles that allow forklifts to drive over them in a horizontal position. The end boards are removed in the mid-1980s. The last car is retired in 1999. The Lgs 580, on the other hand, is rebuilt between 1998 and 2000 from Hbis 297 (approx. 1,250 units) and Hbis 299 and is still in service today.",
-	
+		
 		"offset x-axis": "Offset x-axis",
 		"vehicle": "Vehicle",
 		"asset": "Asset",
@@ -37,7 +38,8 @@
 		"fake_lgns": "Fake-Versionen aktivieren?",
 		"tooltip_fake": "Sollen die Fake-Versionen verfügbar sein im Spiel?",
 	
-        "lgjs_573" :"Lgjs 573",
+        "lgjs_573_60s70s" :"Lgjs 573 DB 1960er",
+        "lgjs_573_80s90s" :"Lgjs 573 DB 1980er",
         "laagss_oebb" :"Laagss ÖBB",
         "lgns_583_btsk" :"Lgns 583 BTSK",
         "lgns_583_db" :"Lgns 583 DB", 

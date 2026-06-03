@@ -321,7 +321,7 @@ return {
 			},
 			description = { 
 				description = _("lgns_desc"),
-				name = _("lgs_580_db_polzug)"),
+				name = _("lgs_580_db_polzug"),
 			},
 			emissions = { 
 				noise = { 
