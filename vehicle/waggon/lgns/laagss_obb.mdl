@@ -1,0 +1,691 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 13.7115020751953125, 1.47937691211700439453125, 2.1071918010711669921875, },
+			bbMin = { -13.7115020751953125, -1.5169036388397216796875, -0.0193904340267181396484375, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 12.1517124176025390625, 1.4981403350830078125, 1.063291072845458984375, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_body_lod0.msh",
+									name = "body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_tritt_lod0.msh",
+									name = "jay_mesh_lgns_tritt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_kupplungMaikC_lod0.msh",
+									name = "jay_mesh_lgns_kupplungMaikC",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_puffer_lod0.msh",
+									name = "jay_mesh_lgns_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_pufferPlatten_lod0.msh",
+									name = "jay_mesh_lgns_pufferPlatten",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_komischesTeil_lod0.msh",
+									name = "jay_mesh_lgns_komischesTeil",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_untenRum_lod0.msh",
+									name = "jay_mesh_laagss_untenRum",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_seilhaken_lod0.msh",
+									name = "jay_mesh_laagss_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_hebel_lod0.msh",
+									name = "jay_mesh_lgns_hebel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_amRad_lod0.msh",
+									name = "jay_mesh_laagss_amRad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_zsHalter_lod0.msh",
+									name = "jay_mesh_lgns_zsHalter",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_tafel_lod0.msh",
+									name = "jay_mesh_laagss_tafel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_rad_lod0.msh",
+									name = "jay_mesh_laagss_rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_untenStangen_lod0.msh",
+									name = "jay_mesh_laagss_untenStangen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_datenraster_lod0.msh",
+									name = "jay_mesh_laagss_datenraster",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_ding_lod0.msh",
+									name = "jay_mesh_laagss_ding",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9988687038421630859375, 0.00363796763122081756591796875, 0.4888212382793426513671875, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.9987938404083251953125, 0.00364396534860134124755859375, 0.4888213574886322021484375, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "msh/jay_mesh_lgns_laufwerk_bandion_lod0.msh",
+									name = "jay_mesh_lgns_laufwerk_bandion",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										back_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_vorne",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.36, -1.16, 1.16, 1, },
+								},
+								{ 
+									animations = { 
+										back_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_vorne2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.36, 0.64, 1.16, 1, },
+								},
+							},
+							name = "wagen1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.85599994659423828125, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_body_lod0.msh",
+									name = "body2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_tritt_lod0.msh",
+									name = "jay_mesh_lgns_tritt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_kupplungMaikC_lod0.msh",
+									name = "jay_mesh_lgns_kupplungMaikC",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_puffer_lod0.msh",
+									name = "jay_mesh_lgns_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_pufferPlatten_lod0.msh",
+									name = "jay_mesh_lgns_pufferPlatten",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_komischesTeil_lod0.msh",
+									name = "jay_mesh_lgns_komischesTeil",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_untenRum_lod0.msh",
+									name = "jay_mesh_laagss_untenRum",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_seilhaken_lod0.msh",
+									name = "jay_mesh_laagss_seilhaken",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_hebel_lod0.msh",
+									name = "jay_mesh_lgns_hebel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_amRad_lod0.msh",
+									name = "jay_mesh_laagss_amRad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_zsHalter_lod0.msh",
+									name = "jay_mesh_lgns_zsHalter",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_tafel_lod0.msh",
+									name = "jay_mesh_laagss_tafel",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_rad_lod0.msh",
+									name = "jay_mesh_laagss_rad",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_untenStangen_lod0.msh",
+									name = "jay_mesh_laagss_untenStangen",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_datenraster_lod0.msh",
+									name = "jay_mesh_laagss_datenraster",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_laagss_ding_lod0.msh",
+									name = "jay_mesh_laagss_ding",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9988687038421630859375, 0.00363796763122081756591796875, 0.4888212382793426513671875, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.9987938404083251953125, 0.00364396534860134124755859375, 0.4888213574886322021484375, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "msh/jay_mesh_lgns_laufwerk_bandion_lod0.msh",
+									name = "jay_mesh_lgns_laufwerk_bandion",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_vorne",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.36, -1.16, 1.16, 1, },
+								},
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_vorne2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.36, 0.64, 1.16, 1, },
+								},
+							},
+							name = "wagen2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.85599994659423828125, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 150,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_body_lod1.msh",
+									name = "body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_untersatz_lod1.msh",
+									name = "jay_mesh_lgns_untersatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_puffer_lod1.msh",
+									name = "jay_mesh_lgns_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_pufferPlatten_lod1.msh",
+									name = "jay_mesh_lgns_pufferPlatten",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9988687038421630859375, 0.00363796763122081756591796875, 0.4888212382793426513671875, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.9987938404083251953125, 0.00364396534860134124755859375, 0.4888213574886322021484375, 1, },
+								},
+							},
+							name = "wagen1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.85599994659423828125, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_body_lod1.msh",
+									name = "body2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_untersatz_lod1.msh",
+									name = "jay_mesh_lgns_untersatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_puffer_lod1.msh",
+									name = "jay_mesh_lgns_puffer",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_pufferPlatten_lod1.msh",
+									name = "jay_mesh_lgns_pufferPlatten",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9988687038421630859375, 0.00363796763122081756591796875, 0.4888212382793426513671875, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.9987938404083251953125, 0.00364396534860134124755859375, 0.4888213574886322021484375, 1, },
+								},
+							},
+							name = "wagen2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.85599994659423828125, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 150,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_body_lod2.msh",
+									name = "body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_untersatz_lod2.msh",
+									name = "jay_mesh_lgns_untersatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9988687038421630859375, 0.00363796763122081756591796875, 0.4888212382793426513671875, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.9987938404083251953125, 0.00364396534860134124755859375, 0.4888213574886322021484375, 1, },
+								},
+							},
+							name = "wagen1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.85599994659423828125, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_body_lod2.msh",
+									name = "body2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/laagss_obb.mtl", },
+									mesh = "msh/jay_mesh_lgns_untersatz_lod2.msh",
+									name = "jay_mesh_lgns_untersatz",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9988687038421630859375, 0.00363796763122081756591796875, 0.4888212382793426513671875, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.9987938404083251953125, 0.00364396534860134124755859375, 0.4888213574886322021484375, 1, },
+								},
+							},
+							name = "wagen2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.85599994659423828125, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 1300,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1995,
+				yearTo = -1,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("lgns_desc"),
+				name = _("laagss_oebb"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 33.299999237060546875,
+				weightEmpty = 22500,
+				weightMaxPayload = 57500,
+			},
+			loadIndicator = { 
+				configs = { 
+					slots_0 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+								},
+							},
+						},
+					},
+					slots_1 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 4, },
+								},
+							},
+						},
+					},
+				},
+				slots = {
+					{ 
+						group = "body",
+						models = { "lgns_beladung_leer.mdl", },
+						randomId = 0,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "lgns_beladung_40ft.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "lgns_beladung_20ft_2.mdl", },
+						randomId = 2,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "lgns_beladung_20ft.mdl", },
+						randomId = 3,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "lgns_beladung_leer.mdl", },
+						randomId = 4,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "lgns_beladung_40ft.mdl", },
+						randomId = 5,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "lgns_beladung_20ft_2.mdl", },
+						randomId = 6,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "lgns_beladung_20ft.mdl", },
+						randomId = 7,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+			},
+			maintenance = { 
+				lifespan = 22000,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "a1", "a2", "a3", "a4", },
+					fakeBogies = { },
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_leicht.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 2,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 4,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS", },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 4,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS", },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_1",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				groupFileName = "menu_lgns.mdl",
+				loadSpeed = 2,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

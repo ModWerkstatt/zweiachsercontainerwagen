@@ -1,0 +1,43 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 6.94999980926513671875, 1.4500000476837158203125, 3.099999904632568359375, },
+			bbMin = { -6.94999980926513671875, -1.4500000476837158203125, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 6.94999980926513671875, 1.4500000476837158203125, 1.5499999523162841796875, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.5499999523162841796875, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/Lgs_db.mtl", },
+							mesh = "msh/jay_mesh_lgns_klappen20ftDoppel_lod0.msh",
+							name = "zapfen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 150,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1999,
+				yearTo = 0,
+			},
+			cost = { 
+				price = -1,
+			},
+		},
+		version = 2,
+	}
+end

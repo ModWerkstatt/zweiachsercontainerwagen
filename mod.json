@@ -1,0 +1,58 @@
+{
+    "dependencies": [
+        {
+            "mod": {
+                "modId": "mw_basis",
+                "revisionMin": 1,
+                "revisionMax": -1
+            },
+            "modInfo": {
+                "displayName": "ModWerkstatt Base Mod",
+                 "url": "https://modwerkstatt.com/downloads/tpf3/basismod"
+            },
+            "loadBefore": true,
+            "optional": false
+        },
+        {
+            "mod": {
+                "modId": "mw_container_addon",
+                "revisionMin": 1,
+                "revisionMax": -1
+            },
+            "modInfo": {
+                "displayName": "ModWerkstatt Container Addon",
+                 "url": "https://modwerkstatt.com/downloads/tpf3/container-addon"
+            },
+            "loadBefore": true,
+            "optional": false
+        },
+		{
+            "mod": {
+                "modId": "mcmw_cont_asset",
+                "revisionMin": 1,
+                "revisionMax": -1
+            },
+            "modInfo": {
+                "displayName": "Cargo - Baseset",
+                 "url": "https://m"
+            },
+            "loadBefore": true,
+            "optional": false
+        }
+    ],
+    "incompatibilities": null,
+    "modId": "mw_lgns",
+    "params": null,
+    "postRunScript": {
+        "fileName": ""
+    },
+    "preRunScript": {
+        "fileName": ""
+    },
+    "revision": 1,
+    "runScript": {
+        "fileName": ""
+    },
+    "severityAdd": "None",
+    "severityRemove": "Warning"
+}

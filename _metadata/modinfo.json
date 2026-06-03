@@ -1,0 +1,22 @@
+{
+    "name": "Lgns Two-Axle Container Carriers",
+    "summary": "A two-axle container carrier. Various versions are included.",
+    "description": "Between 1968 and 1973, 500 container carrying cars are built for DB by the Lüttgens and Talbot companies, designated Lss-y 573 (later: Lgjs 573). On delivery, most of the cars are equipped with end shelves made of extruded aluminum profiles that allow forklifts to drive over them in a horizontal position. The end boards are removed in the mid-1980s. The last car is retired in 1999. The Lgs 580, on the other hand, is rebuilt between 1998 and 2000 from Hbis 297 (approx. 1,250 units) and Hbis 299 and is still in service today.",
+    "localization" : {
+        "de": {
+            "name": "Lgns Zweiachsige Containertragwagen",
+            "summary": "Ein zweiachsiger Containertragewagen. Es sind verschiedene Varianten enthalten.",
+            "description": "Zwischen 1968 und 1973 werden für die DB von den Firmen Lüttgens und Talbot 500 Containertragwagen gebaut, die als Lss-y 573 (später: Lgjs 573) bezeichnet werden. Bei Ablieferung sind die meisten Wagen mit Stirnborden aus Aluminium-Strangpressprofilen ausgerüstet, die in horizontaler Stellung das Überfahren mit Gabelstaplern erlauben. Mitte der achtziger Jahre werden die Stirnborde entfernt. Der letzte Wagen wird 1999 ausgemustert. Der Lgs 580 hingegen wird zwischen 1998 und 2000 aus Hbis 297 (ca. 1.250 Stück) und Hbis 299 umgebaut und ist bis heute im Einsatz."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/zweiachsige-containerwagen"
+}

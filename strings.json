@@ -1,0 +1,62 @@
+{
+  "en": {
+		"menu_lgns": "Lgns Two-Axle Container Carriers",
+		
+		"fake": "Fake - ",
+	
+		"fake_lgns": "Activate fake versions?",
+		"tooltip_fake": "Should the fake versions be available in the game?",
+	
+        "lgjs_573" :"Lgjs 573",
+        "laagss_oebb" :"Laagss ÖBB",
+        "lgns_583_btsk" :"Lgns 583 BTSK",
+        "lgns_583_db" :"Lgns 583 DB", 
+        "lgns_583_db_used)" :"Lgns 583 DB (used)",
+        "lgs_580_db" :"Lgs 580 DB",
+        "lgs_580_db_used" :"Lgs 580 DB (used)",
+        "lgs_580_db_btsk" :"Lgs 580 DB BTSK",
+        "lgs_580_db_cargo" :"Lgs 580 DB Cargo",
+        "lgs_580_db_polzug" :"Lgs 580 DB Polzug",
+        "lgns_desc" :"Between 1968 and 1973, 500 container carrying cars are built for DB by the Lüttgens and Talbot companies, designated Lss-y 573 (later: Lgjs 573). On delivery, most of the cars are equipped with end shelves made of extruded aluminum profiles that allow forklifts to drive over them in a horizontal position. The end boards are removed in the mid-1980s. The last car is retired in 1999. The Lgs 580, on the other hand, is rebuilt between 1998 and 2000 from Hbis 297 (approx. 1,250 units) and Hbis 299 and is still in service today.",
+	
+		"offset x-axis": "Offset x-axis",
+		"vehicle": "Vehicle",
+		"asset": "Asset",
+		"height": "Height",
+		"ground": "Ground",
+		"rail": "Rail",
+		"height_tooltip": "Where should be the origin of the height?",
+		"jrm_param_offsetx_tooltip": "Offset in x direction"
+		
+  },
+  "de": {
+		"menu_lgns": "Lgns Zweiachsige Containertragwagen",
+	
+		"fake": "Fake -",	
+	
+		"fake_lgns": "Fake-Versionen aktivieren?",
+		"tooltip_fake": "Sollen die Fake-Versionen verfügbar sein im Spiel?",
+	
+        "lgjs_573" :"Lgjs 573",
+        "laagss_oebb" :"Laagss ÖBB",
+        "lgns_583_btsk" :"Lgns 583 BTSK",
+        "lgns_583_db" :"Lgns 583 DB", 
+        "lgns_583_db_used" :"Lgns 583 DB (gealtert)",
+        "lgs_580_db" :"Lgs 580 DB",
+        "lgs_580_db_used" :"Lgs 580 DB (gealtert)",
+        "lgs_580_db_btsk" :"Lgs 580 DB BTSK",
+        "lgs_580_db_cargo" :"Lgs 580 DB Cargo",
+        "lgs_580_db_polzug" :"Lgs 580 DB Polzug",
+        "lgns_desc" :"Zwischen 1968 und 1973 werden für die DB von den Firmen Lüttgens und Talbot 500 Containertragwagen gebaut, die als Lss-y 573 (später: Lgjs 573) bezeichnet werden. Bei Ablieferung sind die meisten Wagen mit Stirnborden aus Aluminium-Strangpressprofilen ausgerüstet, die in horizontaler Stellung das Überfahren mit Gabelstaplern erlauben. Mitte der achtziger Jahre werden die Stirnborde entfernt. Der letzte Wagen wird 1999 ausgemustert. Der Lgs 580 hingegen wird zwischen 1998 und 2000 aus Hbis 297 (ca. 1.250 Stück) und Hbis 299 umgebaut und ist bis heute im Einsatz.",
+	
+		"offset x-axis": "Offset x-Achse",
+		"vehicle": "Fahrzeug",
+		"asset": "Asset",
+		"height": "Höhe",
+		"ground": "Boden",
+		"rail": "Schiene",
+		"height_tooltip": "Wonach soll die Höhe gesetzt werden?",
+		"jrm_param_offsetx_tooltip": "Verschiebung in x-Richtung"
+	  
+    }
+}

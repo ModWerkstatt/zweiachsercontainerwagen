@@ -1,0 +1,81 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 1.5, 1.5, 1.5, },
+		bbMin = { -1.5, -1.5, -1.5, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 1.5, 1.5, 1.5, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "::/placeholders/mat/missing_object.mtl", },
+						mesh = "::/placeholders/msh/cube_1x1_lod0.msh",
+						name = "cube_1x1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 5000,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1900,
+			yearTo = 0,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("menu_lgns"),
+		},
+		emissions = {
+			noise = {
+				score = 0,
+			},
+			pollution = {
+				score = 0,
+			},
+		},
+		landVehicle = {
+			brakeDeceleration = 0,
+			engines = {
+			},
+			friction = 0,
+			topSpeed = 0,
+			weight = 0,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			config = {
+			},
+		},
+		transformatorConfig = {
+			transformator = { name = "::/vehicle/train/shared/default_train.trf",
+			},
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			engineTags = { "ELECTRIC_TRAIN", },
+			tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			multipleUnitOnly = true,
+		},
+	},
+	version = 2,
+	}
+end
