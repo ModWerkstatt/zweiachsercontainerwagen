@@ -1,12 +1,12 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 6.835751056671142578125, 1.4419956207275390625, 2.0445768833160400390625, },
-			bbMin = { -6.835751056671142578125, -1.4419958591461181640625, 0.002965152263641357421875, },
+			bbMax = { 7.40962886810302734375, 1.36254680156707763671875, 1.52266228199005126953125, },
+			bbMin = { -7.40962886810302734375, -1.3625490665435791015625, 0.4915154278278350830078125, },
 		},
 		collider = { 
 			params = { 
-				halfExtents = { 6.835751056671142578125, 1.44199573993682861328125, 1.020805835723876953125, },
+				halfExtents = { 7.40962886810302734375, 1.36254787445068359375, 0.515573441982269287109375, },
 			},
 			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			type = "BOX",
@@ -35,7 +35,7 @@ return {
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 							name = "zugschluss_vorne",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.36, -1.16, 1.16, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.53, -1.1, 1.47, 1, },
 						},
 						{ 
 							animations = { 
@@ -57,7 +57,7 @@ return {
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 							name = "zugschluss_vorne2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.36, 0.65, 1.16, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.53, 1.1, 1.47, 1, },
 						},
 						{ 
 							animations = { 
@@ -79,7 +79,7 @@ return {
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 							name = "zugschluss_vorne",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.36, 1.16, 1.16, 1, },
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.53, -1.1, 1.47, 1, },
 						},
 						{ 
 							animations = { 
@@ -101,18 +101,12 @@ return {
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 							name = "zugschluss_vorne2",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.36, -0.65, 1.16, 1, },
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.53, 1.1, 1.47, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_body_lod0.msh",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_body_lod0.msh",
 							name = "body",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_untersatz_lod0.msh",
-							name = "jay_mesh_lgns_untersatz",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -134,87 +128,111 @@ return {
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_tritt_lod0.msh",
-							name = "jay_mesh_lgns_tritt",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_tritt_lod0.msh",
+							name = "jay_mesh_lgjs_tritt",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_kupplungMaikC_lod0.msh",
-							name = "jay_mesh_lgns_kupplungMaikC",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_KupplungMaikC_lod0.msh",
+							name = "jay_mesh_lgjs_KupplungMaikC",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_puffer_lod0.msh",
-							name = "jay_mesh_lgns_puffer",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_seilhaken_lod0.msh",
+							name = "jay_mesh_lgjs_seilhaken",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_pufferPlatten_lod0.msh",
-							name = "jay_mesh_lgns_pufferPlatten",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_datenRaster_lod0.msh",
+							name = "jay_mesh_lgjs_datenRaster",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_komischesTeil_lod0.msh",
-							name = "jay_mesh_lgns_komischesTeil",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_bodyPlatten_lod0.msh",
+							name = "jay_mesh_lgjs_bodyPlatten",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_absatz_lod0.msh",
-							name = "jay_mesh_lgns_absatz",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_Mitte_lod0.msh",
+							name = "jay_mesh_lgjs_Mitte",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_mitteUntersatz_lod0.msh",
-							name = "jay_mesh_lgns_mitteUntersatz",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_stangen_lod0.msh",
+							name = "jay_mesh_lgjs_stangen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_untenRum_lod0.msh",
-							name = "jay_mesh_lgns_untenRum",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_platte01_lod0.msh",
+							name = "jay_mesh_lgjs_platte01",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_seilhaken_lod0.msh",
-							name = "jay_mesh_lgns_seilhaken",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_containerAbsetz_lod0.msh",
+							name = "jay_mesh_lgjs_containerAbsetz",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_leiter_lod0.msh",
-							name = "jay_mesh_lgns_leiter",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_platte02_lod0.msh",
+							name = "jay_mesh_lgjs_platte02",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_hebel_lod0.msh",
-							name = "jay_mesh_lgns_hebel",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_PlattenHinten_lod0.msh",
+							name = "jay_mesh_lgjs_PlattenHinten",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_datenraster_lod0.msh",
-							name = "jay_mesh_lgns_datenraster",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_untenRum_lod0.msh",
+							name = "jay_mesh_lgjs_untenRum",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_amRad_lod0.msh",
-							name = "jay_mesh_lgns_amRad",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_stossDampfer_lod0.msh",
+							name = "jay_mesh_lgjs_stossDampfer",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_zsHalter_lod0.msh",
-							name = "jay_mesh_lgns_zsHalter",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_griffe_lod0.msh",
+							name = "jay_mesh_lgjs_griffe",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_ZSHalter_lod0.msh",
+							name = "jay_mesh_lgjs_ZSHalter",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_hebel_lod0.msh",
+							name = "jay_mesh_lgjs_hebel",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_puffer_lod0.msh",
+							name = "jay_mesh_lgjs_puffer",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_stirnborde_lod0.msh",
+							name = "jay_mesh_lgjs_stirnborde",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -228,27 +246,9 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_body_lod1.msh",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_body_lod1.msh",
 							name = "body",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_untersatz_lod1.msh",
-							name = "jay_mesh_lgns_untersatz",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_puffer_lod1.msh",
-							name = "jay_mesh_lgns_puffer",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_pufferPlatten_lod1.msh",
-							name = "jay_mesh_lgns_pufferPlatten",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -269,6 +269,66 @@ return {
 							name = "jay_mesh_lgns_laufwerk_bandion",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_bodyPlatten_lod1.msh",
+							name = "jay_mesh_lgjs_bodyPlatten",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_Mitte_lod1.msh",
+							name = "jay_mesh_lgjs_Mitte",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_stangen_lod1.msh",
+							name = "jay_mesh_lgjs_stangen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_platte01_lod1.msh",
+							name = "jay_mesh_lgjs_platte01",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_containerAbsetz_lod1.msh",
+							name = "jay_mesh_lgjs_containerAbsetz",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_platte02_lod1.msh",
+							name = "jay_mesh_lgjs_platte02",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_PlattenHinten_lod1.msh",
+							name = "jay_mesh_lgjs_PlattenHinten",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_stossDampfer_lod1.msh",
+							name = "jay_mesh_lgjs_stossDampfer",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_puffer_lod1.msh",
+							name = "jay_mesh_lgjs_puffer",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_stirnborde_lod0.msh",
+							name = "jay_mesh_lgjs_stirnborde",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
 					},
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -280,15 +340,15 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_body_lod2.msh",
-							name = "body",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_body_lod2.msh",
+							name = "jay_mesh_lgjs_body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/Lgs_Polzug.mtl", },
-							mesh = "msh/jay_mesh_lgns_untersatz_lod2.msh",
-							name = "jay_mesh_lgns_untersatz",
+							materials = { "mat/lgjs_60s70s.mtl", },
+							mesh = "msh/jay_mesh_lgjs_Mitte_lod2.msh",
+							name = "jay_mesh_lgjs_Mitte",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -313,15 +373,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1999,
-				yearTo = 0,
+				yearFrom = 1968,
+				yearTo = 1979,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
 				description = _("lgns_desc"),
-				name = _("lgs_580_db_polzug"),
+				name = _("lgjs_573_60s70s"),
 			},
 			emissions = { 
 				noise = { 
@@ -340,8 +400,8 @@ return {
 				engines = { },
 				friction = 0.0199999995529651641845703125,
 				topSpeed = 33.299999237060546875,
-				weightEmpty = 12500,
-				weightMaxPayload = 27500,
+				weightEmpty = 12000,
+				weightMaxPayload = 30500,
 			},
 			loadIndicator = { 
 				configs = { 
@@ -354,7 +414,7 @@ return {
 							},
 						},
 					},
-					slots_1 = { 
+					slots_0 = { 
 						cargoSlots = { 
 							configurations = {
 								{
@@ -367,14 +427,26 @@ return {
 				slots = {
 					{ 
 						group = "body",
-						models = { "lgns_beladung_leer.mdl", },
+						models = { "lgjs_beladung_leer.mdl", },
 						randomId = 0,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "lgns_beladung_40ft.mdl", },
-						randomId = 0,
+						models = { "lgjs_beladung_40ft.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "lgjs_beladung_20ft.mdl", },
+						randomId = 2,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "lgjs_beladung_20ft_2.mdl", },
+						randomId = 3,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 				},
@@ -422,10 +494,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_lgns.mdl",
-				loadSpeed = 4,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				loadSpeed = 3,
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,

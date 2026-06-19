@@ -71,9 +71,9 @@ return {
 		},
 		transportVehicle = {
 			carrier = "RAIL",
-			engineTags = { "ELECTRIC_TRAIN", },
-			tags = { "TRAIN", "ELECTRIC_TRAIN", },
-			multipleUnitOnly = true,
+			engineTransportModes = { },
+			transportModes = { },
+			filterTags = { },
 		},
 	},
 	version = 2,
