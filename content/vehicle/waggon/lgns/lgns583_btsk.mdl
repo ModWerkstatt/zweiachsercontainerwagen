@@ -16,6 +16,30 @@ return {
 				node = { 
 					children = {
 						{ 
+							materials = { "mat/lgns583_btsk.mtl", },
+							mesh = "msh/lgns_583_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+							mesh = "msh/lgns_583_laufwerk_lod0.msh",
+							name = "laufwerk",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+							name = "a1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.49, 0.00363796763122081756591796875, 0.4515, 1, },
+						},
+						{ 
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+							name = "a2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.49, 0.00364396534860134124755859375, 0.4515, 1, },
+						},
+						{ 
 							animations = { 
 								back_forward_parts_off = { 
 									interpolation = "NEAREST",
@@ -102,120 +126,6 @@ return {
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 							name = "zugschluss_vorne2",
 							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.360000133514404296875, -0.64999997615814208984375, 1.15999996662139892578125, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_tritt_lod0.msh",
-							name = "jay_mesh_lgns583_tritt",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
-							name = "a1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.9988687038421630859375, 0.00363796763122081756591796875, 0.4888212382793426513671875, 1, },
-						},
-						{ 
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
-							name = "a2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.9987938404083251953125, 0.00364396534860134124755859375, 0.4888213574886322021484375, 1, },
-						},
-						{ 
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_645.mtl", },
-							mesh = "msh/jay_mesh_lgns_laufwerk_bandion_lod0.msh",
-							name = "jay_mesh_lgns_laufwerk_bandion",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_kupplungMaikC_lod0.msh",
-							name = "jay_mesh_lgns583_kupplungMaikC",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_puffer_lod0.msh",
-							name = "jay_mesh_lgns583_puffer",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_pufferPlatten_lod0.msh",
-							name = "jay_mesh_lgns583_pufferPlatten",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_komischesTeil_lod0.msh",
-							name = "jay_mesh_lgns583_komischesTeil",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_untenRum_lod0.msh",
-							name = "jay_mesh_lgns583_untenRum",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.0199999995529651641845703125, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_seilhaken_lod0.msh",
-							name = "jay_mesh_lgns583_seilhaken",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_hebel_lod0.msh",
-							name = "jay_mesh_lgns583_hebel",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_datenraster_lod0.msh",
-							name = "jay_mesh_lgns583_datenraster",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_amRad_lod0.msh",
-							name = "jay_mesh_lgns583_amRad",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_zsHalter_lod0.msh",
-							name = "jay_mesh_lgns583_zsHalter",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_body_lod0.msh",
-							name = "body",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_datenraster_lod0.msh",
-							name = "jay_mesh_lgns583_datenraster",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_Bremse_lod0.msh",
-							name = "jay_mesh_lgns583_Bremse",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_anschriftplatte_lod0.msh",
-							name = "jay_mesh_lgns583_anschriftplatte",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/Lgns583_btsk.mtl", },
-							mesh = "msh/jay_mesh_lgns583_bodyPlatte_lod0.msh",
-							name = "jay_mesh_lgns583_bodyPlatte",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 0.9900000095367431640625, 0, 0, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
